@@ -1,3 +1,6 @@
+# TO start the json server use this cmd run the server before starting the react.
+### npx json-server --w dataBase/shopData.json -p 8000
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
