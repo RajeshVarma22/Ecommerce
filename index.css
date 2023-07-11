@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Custom  Styles */
+.cornersCurve {
+  border-radius: 15px;
+}
+
+.cornersCurveSm {
+  border-radius: 5px;
+}
+
+.cornersCurveMd {
+  border-radius: 10px;
+}
+
+.shadows {
+  box-shadow: 0px 5px 5px black;
+}
+
+.linksDecorate {
+  text-decoration: none;
+}
+
+.shadowsSm {
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.6);
+}
+
+/* End Custom Styles */
+
+#logoImg {
+  border-radius: 50%;
+}
+
+nav {
+  background: linear-gradient(45deg, blueviolet, deeppink);
+}
+
+.navbar {
+  margin-bottom: 10px;
+}
+
+nav img {
+  border: 1px solid deeppink;
+}
+
+.offersCarousel .image,
+.offersSubContent {
+  display: inline-block;
+}
+
+.offersSubContent {
+  text-align: left;
+}
+
+.offersSubContent p {
+  display: inline-block;
+}
+
+.offerings p {
+  display: block;
+}
+
+.homeSubContent a {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  height: fit-content;
+}
+
+.electronicsAll img {
+  border-radius: 5px;
+}
+
+.ClothesMainList img {
+  border-radius: 20px;
+}
+
+.mem p {
+  display: inline-block;
+}
+
+.mainShowSelectedContent .imageShow {
+  position: fixed;
+  width: 350px;
+  height: 100%;
+}
+
+.mainShowSelectedContent .imageShow .card {
+  height: 75%;
+}
+
+.mainShowSelectedContent .imageShow .card img {
+  display: block;
+  margin: auto;
+}
+
+.mainShowSelectedContent .imageShow .card .like {
+  position: absolute;
+  right: 0;
+  display: block;
+}
+
+.mainShowSelectedContent .imageShow .card button {
+  display: inline-block;
+  border: none;
+  margin: auto;
+}
+
+.mainShowSelectedContent .mobileInfo {
+  margin-left: 360px;
+  padding-left: 10px;
+}
+
+/* From here ShowSelectedLaptop Styles*/
+.showLaptopContent .imageShow {
+  position: fixed;
+  width: 350px;
+  height: 100%;
+}
+
+.showLaptopContent .imageShow .card {
+  height: 75%;
+}
+
+.showLaptopContent .imageShow .card img {
+  display: block;
+  margin: auto;
+}
+
+.showLaptopContent .imageShow .card .like {
+  position: absolute;
+  right: 0;
+  display: block;
+}
+
+.showLaptopContent .imageShow .card button {
+  display: inline-block;
+  border: none;
+  margin: auto;
+}
+
+.showLaptopContent .lapInfo {
+  margin-left: 360px;
+  padding-left: 10px;
+}
+
+/*ShowSelectedLaptop Styles end */
+
+.signUp .card {
+  width: 500px;
+  font-weight: bold;
+  background: linear-gradient(45deg, #056253, #42a595);
+}
+
+.btnCnhg {
+  background: linear-gradient(45deg, #000428, #004E92);
+  color: aqua !important;
+}
+
+.login .card {
+  width: 500px;
+  font-weight: bold;
+  background: linear-gradient(45deg, #020733, #004E92);
+}
+
+.btnCnhg2 {
+  background: linear-gradient(45deg, #056253, #42a595);
+}
+
+
+

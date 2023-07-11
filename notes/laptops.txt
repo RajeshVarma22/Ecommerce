@@ -1,0 +1,6 @@
+onClick={() => path(item.path)}
+
+let path = (route) => {
+    localStorage.removeItem('mobilesPath');
+    localStorage.setItem('mobilesPath', route)  
+  }

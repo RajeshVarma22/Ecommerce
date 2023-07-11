@@ -1,0 +1,13 @@
+import React from "react";
+
+
+let StudentFun = () => {
+    return (
+        <React.Fragment>
+            <h2>Welcome to Student by Props</h2>
+        </React.Fragment>
+    )
+
+}
+
+export default StudentPropFun;

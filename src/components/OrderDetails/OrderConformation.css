@@ -1,0 +1,14 @@
+#OrderConformation {
+  position: absolute;
+  bottom: 20px;
+  right: 70px;
+}
+
+#OrderConformation button{
+  background: linear-gradient(45deg, darkgreen, green);
+  height: 3rem;
+  color: white;
+  font-size: larger;
+  font-weight: bolder;
+  box-shadow: 0px 2px 2px black;
+}
