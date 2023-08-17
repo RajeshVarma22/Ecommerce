@@ -1,4 +1,5 @@
 import React from "react";
+import './home.css'
 import electronicsMain from "../../assets/Images/ElectronicsMain.jpg";
 import clothesMain from "../../assets/Images/ClothesMains.jpg";
 import grocerryMain from "../../assets/Images/GrocerryMain.jpg";
